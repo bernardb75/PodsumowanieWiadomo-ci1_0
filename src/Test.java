@@ -7,11 +7,11 @@ public class Test {
 
     @Before
     public void Dane(){
-        trojkat=new Trojkat(7,4,5);
+        trojkat=new Trojkat(5,4,3);
     }
     @org.junit.Test
     public void JestProstokatny() {
-        assertEquals(false, trojkat.TrajkatProstokatny());
+        assertEquals(true, trojkat.TrajkatProstokatny());
     }
 
 }
